@@ -1,0 +1,18 @@
+<main>
+  <h1>My Thoughts</h1>
+  <section>
+    <button *ngIf="!showForm" (click)="toggleForm()">New Thought</button>
+    <app-post-form
+      *ngIf="showForm"
+      (submitted)="onSubmitHandler($event)"
+    ></app-post-form>
+    <div class="posts">
+      <app-post
+        *ngFor="let post of posts; index as i"
+        [post]="post"
+        [index]="i"
+        (onDelete)="onDeleteHandler($event)"
+      ></app-post>
+    </div>
+  </section>
+</main>

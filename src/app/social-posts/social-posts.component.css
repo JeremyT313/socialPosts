@@ -1,0 +1,28 @@
+h1 {
+  font-family: "homemade apple";
+  color: rgb(3, 169, 244);
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+button {
+  background: white;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px;
+  display: inherit;
+  margin: 0 auto 50px;
+}
+
+.posts {
+  background: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}

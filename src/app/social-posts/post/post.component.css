@@ -1,0 +1,15 @@
+.post-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.new-post {
+  border-bottom: 1px solid grey;
+  width: 80%;
+  margin: auto;
+}
+
+.thought {
+  display: flex;
+  justify-content: space-between;
+}
